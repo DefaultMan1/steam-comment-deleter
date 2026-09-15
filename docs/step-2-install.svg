@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="378" viewBox="0 0 880 378"
+     font-family="ui-rounded, -apple-system, 'SF Pro Rounded', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="s2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1116"/>
+      <stop offset="0.55" stop-color="#1b2838"/>
+      <stop offset="1" stop-color="#0d141b"/>
+    </linearGradient>
+    <radialGradient id="s2g1" cx="0.85" cy="0.06" r="0.8">
+      <stop offset="0" stop-color="#1a9fff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#1a9fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s2g2" cx="0.1" cy="0.96" r="0.85">
+      <stop offset="0" stop-color="#66c0f4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#66c0f4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="s2glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="s2dialog" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#2a475e" stop-opacity="0.97"/>
+      <stop offset="1" stop-color="#16202d" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="s2green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6e11f"/>
+      <stop offset="1" stop-color="#536904"/>
+    </linearGradient>
+    <linearGradient id="s2badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#66c0f4"/>
+      <stop offset="1" stop-color="#1a9fff"/>
+    </linearGradient>
+    <filter id="s2shadow" x="-25%" y="-25%" width="150%" height="175%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="s2glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="s2arw" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#66c0f4"/>
+    </marker>
+  </defs>
+
+  <rect width="880" height="378" fill="url(#s2bg)"/>
+  <rect width="880" height="378" fill="url(#s2g1)"/>
+  <rect width="880" height="378" fill="url(#s2g2)"/>
+
+  <rect x="26" y="22" width="78" height="23" rx="4" fill="url(#s2badge)"/>
+  <text x="65" y="38" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0b1116">STEP 2</text>
+  <text x="118" y="40" font-size="17.5" font-weight="700" fill="#e6eef5">Click the download link, then press Install</text>
+
+  <!-- glass page behind -->
+  <rect x="24" y="62" width="832" height="118" rx="12" fill="url(#s2glass)" stroke="#66c0f4" stroke-opacity="0.2" filter="url(#s2shadow)"/>
+  <path d="M24 74 a12 12 0 0 1 12 -12 h808 a12 12 0 0 1 12 12 v10 H24 z" fill="#66c0f4" fill-opacity="0.09"/>
+  <circle cx="48" cy="74" r="4.5" fill="#c94a3f"/>
+  <circle cx="64" cy="74" r="4.5" fill="#c9a227"/>
+  <circle cx="80" cy="74" r="4.5" fill="#90ba3c"/>
+  <rect x="102" y="64" width="700" height="21" rx="4" fill="#000000" fill-opacity="0.35" stroke="#66c0f4" stroke-opacity="0.16"/>
+  <text x="116" y="79" font-size="11" fill="#8f98a0">github.com/DefaultMan1/steam-comment-deleter &#8594; steam-comment-deleter.user.js</text>
+  <text x="48" y="128" font-size="12.5" fill="#c7d5e0">Use the install button in the README. The link ends in</text>
+  <text x="298" y="128" font-size="12.5" font-weight="700" fill="#a4d007">.user.js</text>
+  <text x="362" y="128" font-size="12.5" fill="#c7d5e0">&#8212; that ending tells Tampermonkey to open its own install window.</text>
+  <text x="48" y="156" font-size="12.5" fill="#d98c84">Private repository: sign in to GitHub first. Public release will remove this step.</text>
+
+  <!-- install dialog -->
+  <rect x="200" y="200" width="480" height="124" rx="12" fill="url(#s2dialog)" stroke="#66c0f4" stroke-opacity="0.28" filter="url(#s2shadow)"/>
+  <path d="M200 212 a12 12 0 0 1 12 -12 h456 a12 12 0 0 1 12 12 v10 H200 z" fill="#66c0f4" fill-opacity="0.14"/>
+  <text x="218" y="213" font-size="12" font-weight="700" fill="#dbeaf8" letter-spacing="0.6">Tampermonkey</text>
+  <text x="222" y="250" font-size="12.5" fill="#a9b8d0">Install this userscript?</text>
+  <text x="222" y="275" font-size="15.5" font-weight="700" fill="#e6eef5">Steam Comment Deleter</text>
+  <text x="222" y="293" font-size="11.5" fill="#8f98a0">version 3.1.0</text>
+  <rect x="530" y="282" width="66" height="30" rx="5" fill="#66c0f4" fill-opacity="0.16" stroke="#66c0f4" stroke-opacity="0.3"/>
+  <text x="563" y="302" text-anchor="middle" font-size="12.5" fill="#c7d5e0">Cancel</text>
+  <rect x="606" y="282" width="66" height="30" rx="5" fill="url(#s2green)"/>
+  <rect x="606" y="282" width="66" height="15" rx="5" fill="#ffffff" fill-opacity="0.18"/>
+  <text x="639" y="302" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f2fad9">Install</text>
+
+  <!-- callout -->
+  <path d="M698 297 L682 297" stroke="#66c0f4" stroke-width="2.5" marker-end="url(#s2arw)"/>
+  <circle cx="716" cy="297" r="15" fill="url(#s2badge)" filter="url(#s2glow)"/>
+  <text x="716" y="303" text-anchor="middle" font-size="16" font-weight="700" fill="#0b1116">2</text>
+  <text x="740" y="302" font-size="12.5" fill="#c7d5e0">press it</text>
+
+  <text x="24" y="355" font-size="12.5" fill="#8f98a0">Tampermonkey opens this window by itself. You do not have to find any menu.</text>
+</svg>

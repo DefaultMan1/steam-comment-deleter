@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330"
+     font-family="ui-rounded, -apple-system, 'SF Pro Rounded', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="s1bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1116"/>
+      <stop offset="0.55" stop-color="#1b2838"/>
+      <stop offset="1" stop-color="#0d141b"/>
+    </linearGradient>
+    <radialGradient id="s1g1" cx="0.15" cy="0.08" r="0.8">
+      <stop offset="0" stop-color="#1a9fff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#1a9fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s1g2" cx="0.9" cy="0.95" r="0.85">
+      <stop offset="0" stop-color="#66c0f4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#66c0f4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="s1glass" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="s1icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66c0f4"/>
+      <stop offset="1" stop-color="#1a9fff"/>
+    </linearGradient>
+    <linearGradient id="s1green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6e11f"/>
+      <stop offset="1" stop-color="#536904"/>
+    </linearGradient>
+    <linearGradient id="s1badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#66c0f4"/>
+      <stop offset="1" stop-color="#1a9fff"/>
+    </linearGradient>
+    <filter id="s1shadow" x="-25%" y="-25%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="s1glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="s1arw" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#66c0f4"/>
+    </marker>
+  </defs>
+
+  <rect width="880" height="330" fill="url(#s1bg)"/>
+  <rect width="880" height="330" fill="url(#s1g1)"/>
+  <rect width="880" height="330" fill="url(#s1g2)"/>
+
+  <rect x="26" y="22" width="78" height="23" rx="4" fill="url(#s1badge)"/>
+  <text x="65" y="38" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0b1116">STEP 1</text>
+  <text x="118" y="40" font-size="17.5" font-weight="700" fill="#e6eef5">Install the free Tampermonkey extension</text>
+
+  <!-- glass window -->
+  <rect x="24" y="62" width="832" height="200" rx="12" fill="url(#s1glass)" stroke="#66c0f4" stroke-opacity="0.22" filter="url(#s1shadow)"/>
+  <path d="M24 74 a12 12 0 0 1 12 -12 h808 a12 12 0 0 1 12 12 v10 H24 z" fill="#66c0f4" fill-opacity="0.09"/>
+  <circle cx="50" cy="74" r="4.5" fill="#c94a3f"/>
+  <circle cx="66" cy="74" r="4.5" fill="#c9a227"/>
+  <circle cx="82" cy="74" r="4.5" fill="#90ba3c"/>
+  <rect x="104" y="64" width="560" height="21" rx="4" fill="#000000" fill-opacity="0.35" stroke="#66c0f4" stroke-opacity="0.16"/>
+  <text x="118" y="79" font-size="11" fill="#8f98a0">chromewebstore.google.com/detail/tampermonkey</text>
+
+  <!-- listing card -->
+  <rect x="56" y="112" width="768" height="128" rx="10" fill="#ffffff" fill-opacity="0.05" stroke="#66c0f4" stroke-opacity="0.2"/>
+  <rect x="56" y="112" width="768" height="1" fill="#66c0f4" fill-opacity="0.35"/>
+  <rect x="82" y="136" width="76" height="76" rx="16" fill="url(#s1icon)"/>
+  <rect x="82" y="136" width="76" height="36" rx="16" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="120" y="187" text-anchor="middle" font-size="40" font-weight="700" fill="#0b1116">T</text>
+  <text x="182" y="166" font-size="22" font-weight="700" fill="#e6eef5">Tampermonkey</text>
+  <text x="182" y="190" font-size="12.5" fill="#8f98a0">Userscript manager &#183; Browser extension</text>
+  <rect x="182" y="204" width="168" height="32" rx="5" fill="url(#s1green)"/>
+  <rect x="182" y="204" width="168" height="16" rx="5" fill="#ffffff" fill-opacity="0.18"/>
+  <text x="266" y="225" text-anchor="middle" font-size="13" font-weight="700" fill="#f2fad9">Add to Chrome</text>
+
+  <!-- callout -->
+  <path d="M556 220 L356 220" stroke="#66c0f4" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.85" marker-end="url(#s1arw)"/>
+  <circle cx="582" cy="220" r="15" fill="url(#s1badge)" filter="url(#s1glow)"/>
+  <text x="582" y="226" text-anchor="middle" font-size="16" font-weight="700" fill="#0b1116">1</text>
+  <text x="608" y="217" font-size="12.5" fill="#c7d5e0">Click, then confirm</text>
+  <text x="608" y="234" font-size="12.5" fill="#c7d5e0">&#8220;Add extension&#8221;.</text>
+  <text x="608" y="251" font-size="11.5" fill="#8f98a0">Button wording may vary by browser.</text>
+
+  <text x="24" y="296" font-size="12.5" fill="#8f98a0">Chrome, Brave, Edge and Opera share the Chrome Web Store. Firefox has its own add-on store.</text>
+  <text x="24" y="318" font-size="12.5" fill="#6b7c8c">Then switch on &#8220;Allow User Scripts&#8221; for Tampermonkey, or scripts stay silent.</text>
+</svg>
