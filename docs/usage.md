@@ -18,10 +18,9 @@ The script uses Steam's existing controls. Steam makes the resulting network req
 
 ## Compatibility
 
-Tested with **Brave and Tampermonkey**. A user reported successful installation and real Steam comment deletion. Automated tests cover filtering, validation, the panel workflow, and simulated Steam responses. Firefox is included in CI, but live Steam use in Firefox is not verified.
+The installation guide covers **Brave and Chrome with Tampermonkey**. Live Steam deletion has been confirmed in Brave; Chrome has not been separately verified on a live profile. Automated tests cover filtering, validation, the panel workflow, and simulated Steam responses. Firefox is included in CI, but live Steam use in Firefox is not verified.
 
 Steam can change its page structure. If a deletion cannot be confirmed, check Activity and inspect the profile before trying again.
 
 
 [Back to installation](../README.md)
-

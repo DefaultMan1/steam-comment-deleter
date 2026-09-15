@@ -1,6 +1,6 @@
 # Steam Comment Deleter
 
-Delete comments from your Steam profile, with optional filters for text, author, and date. Tested with Brave and Tampermonkey.
+Delete comments from your Steam profile, with optional filters for text, author, and date. For Brave and Chrome with Tampermonkey.
 
 [![Install Steam Comment Deleter](docs/install.svg)](https://github.com/DefaultMan1/steam-comment-deleter/raw/refs/heads/main/steam-comment-deleter.user.js)
 
@@ -10,13 +10,18 @@ You'll need Tampermonkey first. Follow the three steps below if you haven't used
 
 *The panel in dark and light mode, using sample comments.*
 
-## Install in Brave
+## Install in Brave or Chrome
 
 ### 1. Add Tampermonkey
 
-Open [Tampermonkey](https://www.tampermonkey.net/) and choose the Chrome download for Brave. Click **Add to Chrome**, then **Add extension**. The button may say **Add to Brave** instead.
+Open [Tampermonkey](https://www.tampermonkey.net/) and choose the Chrome download for either browser. Click **Add to Chrome** (or **Add to Brave**), then **Add extension**.
 
-Paste `brave://extensions` into your address bar. Find **Tampermonkey → Details** and turn on **Allow User Scripts**. If that switch is missing, follow [Tampermonkey's permission guide](https://www.tampermonkey.net/faq.php#Q209).
+Open your browser's extensions page by pasting the address below into the address bar:
+
+- **Brave:** `brave://extensions`
+- **Chrome:** `chrome://extensions`
+
+Find **Tampermonkey → Details** and turn on **Allow User Scripts**. If that switch is missing, follow [Tampermonkey's permission guide](https://www.tampermonkey.net/faq.php#Q209).
 
 ### 2. Add the script
 
